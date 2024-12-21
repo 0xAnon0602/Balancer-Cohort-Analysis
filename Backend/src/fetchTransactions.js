@@ -5,7 +5,7 @@ const {saveTransaction,getOneTransaction} = require('./controllers/transactionCo
 dotenv.config();
 
 const fetchTransactions = async () => {
-    let skip = 0;
+    let skip = 4720000;
     const limit = 1000;
     let hasMoreData = true;
 
